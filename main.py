@@ -6,7 +6,7 @@ tasks = []  # Empty list to store tasks
 
 def show_tasks():
     if not tasks:
-        print("\nNo tasks yet! ✅")
+        print("\n No tasks yet! ✅")
     else:
         print("\nYour To-Do List:")
         for i, task in enumerate(tasks, start=1):
