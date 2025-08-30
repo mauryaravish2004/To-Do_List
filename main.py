@@ -44,7 +44,7 @@ def main():
         elif choice == "3":
             delete_task()
         elif choice == "4":
-            print("Thanks for your time , Goodbye 👋")
+            print("Thanks for your time , bye 👋")
             break
         else:
             print("Invalid option ❌")
